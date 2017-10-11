@@ -23,7 +23,7 @@ public class VRTouchpadMove : MonoBehaviour
 
     void Update()
     {
-        int speed = 4;
+        int speed = 3;
 
         if (controller == null)
         {
@@ -41,7 +41,7 @@ public class VRTouchpadMove : MonoBehaviour
             {
                 if (controller.GetPress(touchpad))
                 {
-                    speed = 10;
+                    speed = speed * 2;
                 }
                 rig.position += (transform.right * axis.x + transform.forward * axis.y) * Time.deltaTime * speed;
                 rig.position = new Vector3(rig.position.x, 0, rig.position.z);

@@ -48,13 +48,13 @@ public class PickupParent : MonoBehaviour {
             Debug.Log("You activated 'PressUp' on the Trigger!");
         }
 
-        if (device.GetPressUp(SteamVR_Controller.ButtonMask.Touchpad))
+        /*if (device.GetPressUp(SteamVR_Controller.ButtonMask.Touchpad))
         {
             Debug.Log("You activated 'PressUp' on the Touchpad!");
             sphere.transform.position = new Vector3(0, 0, 0);
             sphere.GetComponent<Rigidbody>().velocity = new Vector3(0, 0, 0);
             sphere.GetComponent<Rigidbody>().angularVelocity = new Vector3(0, 0, 0);
-        }
+        }*/
     }
 
     void OnTriggerStay(Collider col)

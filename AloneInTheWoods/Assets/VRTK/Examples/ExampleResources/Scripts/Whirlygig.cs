@@ -10,7 +10,7 @@
         public override void StartUsing(VRTK_InteractUse usingObject)
         {
             base.StartUsing(usingObject);
-            spinSpeed = 360f;
+            spinSpeed = 600f;
         }
 
         public override void StopUsing(VRTK_InteractUse usingObject)

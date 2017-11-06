@@ -31,7 +31,8 @@ public class LookAtAndFollow : MonoBehaviour {
         my_forward *= followSpeed * Time.deltaTime;
 
         //forces gameobject to face target
-        transform.LookAt(followsTarget.position);
+        //transform.LookAt(followsTarget.position);
+        transform.Rotate(followsTarget.position.x, 0, followsTarget.position.z);
 
         //make the translation in world space, as long as object is keepsDistance away.
         //keepsDistacne avoids undesirable 

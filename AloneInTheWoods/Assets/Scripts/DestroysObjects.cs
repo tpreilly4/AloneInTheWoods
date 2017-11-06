@@ -10,7 +10,7 @@ public class DestroysObjects : MonoBehaviour {
     void OnCollisionEnter(Collision col)
     {
         //When colliders meet, scripted object destroys objects in array
-        if (col.gameObject.name == "Zombie")
+        if (col.gameObject.name == "Zombie" || col.gameObject.name == ("Zombie(Clone)"))
         {
             Destroy(col.gameObject);
         }

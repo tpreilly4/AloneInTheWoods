@@ -1,9 +1,8 @@
-# AloneInTheWoods
+ # Alone In The Woods VR
 
-Tom Reilly MU CS 2018
+A Virtual Reality video game developed using Unity 3D and C# with intents to foster self-learning. This game was developed using the HTC Vive.
 
-A midterm/for fun project for MU's CS498 VR Game Development course.
+## Author
 
-This is mainly for the purposes of learning VR development with Unity, using the HTC Vive.
+* **Thomas Reilly** - Developed for credit at Monmouth University for CS498 - Virtual Reality Game Developmen
 
-There is not yet any real objective to the game.
